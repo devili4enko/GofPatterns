@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{87E6E670-56B8-4379-8286-A9F9C961B67A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{9645F578-DF92-4111-A61D-9AC7D34A236C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -39,6 +41,10 @@ Global
 		{87E6E670-56B8-4379-8286-A9F9C961B67A}.Debug|x86.Build.0 = Debug|x86
 		{87E6E670-56B8-4379-8286-A9F9C961B67A}.Release|x86.ActiveCfg = Release|x86
 		{87E6E670-56B8-4379-8286-A9F9C961B67A}.Release|x86.Build.0 = Release|x86
+		{9645F578-DF92-4111-A61D-9AC7D34A236C}.Debug|x86.ActiveCfg = Debug|x86
+		{9645F578-DF92-4111-A61D-9AC7D34A236C}.Debug|x86.Build.0 = Debug|x86
+		{9645F578-DF92-4111-A61D-9AC7D34A236C}.Release|x86.ActiveCfg = Release|x86
+		{9645F578-DF92-4111-A61D-9AC7D34A236C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 		{B9448151-8264-4098-A13B-1A64CC5447F8} = {5354A392-62CE-43C5-BEFB-D89E6FCED96F}
 		{3246649F-C511-41FF-9702-F526E25A58C6} = {5354A392-62CE-43C5-BEFB-D89E6FCED96F}
 		{87E6E670-56B8-4379-8286-A9F9C961B67A} = {5354A392-62CE-43C5-BEFB-D89E6FCED96F}
+		{9645F578-DF92-4111-A61D-9AC7D34A236C} = {5354A392-62CE-43C5-BEFB-D89E6FCED96F}
 	EndGlobalSection
 EndGlobal
