@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace AnotherBuilder
 {
-    interface AbstractBuilder<T> where T: class 
+    interface AbstractBuilder<T> where T: class
     {
         T Build();
-
-        T Build(T instance);
     }
 }
