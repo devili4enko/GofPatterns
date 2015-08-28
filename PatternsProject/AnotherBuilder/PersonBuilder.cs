@@ -21,21 +21,21 @@ namespace AnotherBuilder
             return this;
         }
 
+        public PersonBuilder WithSurname(string surname)
+        {
+            _person.SurName = surname;
+            return this;
+        }
+
         public PersonBuilder WithName(string name)
         {
             _person.Name = name;
             return this;
         }
 
-
         public Person Build()
         {
             return this._person;
-        }
-
-        public Person Build(Person instance)
-        {
-            throw new NotImplementedException();
         }
     }
 }
