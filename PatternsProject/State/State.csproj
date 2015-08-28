@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Granted.cs" />
+    <Compile Include="NewOrder.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
