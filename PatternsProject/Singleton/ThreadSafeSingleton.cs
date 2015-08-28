@@ -13,7 +13,10 @@ namespace Singleton
         public static ThreadSafeSingleton instanceLoggerSingleton = null;
 
         private static object _lock = new object();
-
+        /// <summary>
+        /// GetInstance of singleton
+        /// </summary>
+        /// <returns></returns>
         public static ThreadSafeSingleton GetInstance()
         {
             if (instanceLoggerSingleton != null) return instanceLoggerSingleton;
@@ -24,6 +27,10 @@ namespace Singleton
             return instanceLoggerSingleton;
         }
 
+        /// <summary>
+        /// Jus singleton method
+        /// </summary>
+        /// <param name="message"></param>
         public void Log(string message)
         {
             Console.WriteLine("{0} logging: {1}", count, message);
