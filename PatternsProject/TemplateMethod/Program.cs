@@ -10,6 +10,12 @@ namespace TemplateMethod
     {
         static void Main(string[] args)
         {
+            AbstractClass tMA= new ConcerateA();
+
+            tMA.Start();
+
+            tMA = new ConcerateB();
+            tMA.Start();
         }
     }
 }
